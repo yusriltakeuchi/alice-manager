@@ -111,7 +111,7 @@ extension GetConnectRequestX on Request {
         return utf8.decode(await bodyBytes.toBytes());
       }
     }
-    return null;
+    return '';
   }
 
   String get contentType {
