@@ -3,15 +3,15 @@
 import 'dart:convert' show JsonEncoder;
 import 'dart:io' show Directory, File, FileMode, IOSink;
 
-import 'package:alice/core/alice_utils.dart';
-import 'package:alice/helper/alice_conversion_helper.dart';
-import 'package:alice/helper/operating_system.dart';
-import 'package:alice/model/alice_export_result.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
-import 'package:alice/utils/alice_parser.dart';
-import 'package:alice/utils/curl.dart';
+import 'package:alice_manager/core/alice_utils.dart';
+import 'package:alice_manager/helper/alice_conversion_helper.dart';
+import 'package:alice_manager/helper/operating_system.dart';
+import 'package:alice_manager/model/alice_export_result.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/utils/alice_parser.dart';
+import 'package:alice_manager/utils/curl.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';

@@ -1,6 +1,6 @@
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
-import 'package:alice/ui/common/alice_theme.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/ui/common/alice_theme.dart';
 import 'package:flutter/material.dart';
 
 /// General dialogs used in Alice.

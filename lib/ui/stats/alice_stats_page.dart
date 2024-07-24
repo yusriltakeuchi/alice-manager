@@ -1,11 +1,11 @@
-import 'package:alice/core/alice_core.dart';
-import 'package:alice/helper/alice_conversion_helper.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
-import 'package:alice/ui/common/alice_page.dart';
-import 'package:alice/ui/widget/alice_stats_row.dart';
-import 'package:alice/utils/num_comparison.dart';
+import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/helper/alice_conversion_helper.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/ui/common/alice_page.dart';
+import 'package:alice_manager/ui/widget/alice_stats_row.dart';
+import 'package:alice_manager/utils/num_comparison.dart';
 import 'package:flutter/material.dart';
 
 /// General stats page for currently caught HTTP calls.

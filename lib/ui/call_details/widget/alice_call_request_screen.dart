@@ -1,12 +1,12 @@
-import 'package:alice/helper/alice_conversion_helper.dart';
-import 'package:alice/model/alice_form_data_file.dart';
-import 'package:alice/model/alice_from_data_field.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/call_details/widget/alice_call_list_row.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
-import 'package:alice/utils/alice_parser.dart';
-import 'package:alice/ui/common/alice_scroll_behavior.dart';
+import 'package:alice_manager/helper/alice_conversion_helper.dart';
+import 'package:alice_manager/model/alice_form_data_file.dart';
+import 'package:alice_manager/model/alice_from_data_field.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/call_details/widget/alice_call_list_row.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/utils/alice_parser.dart';
+import 'package:alice_manager/ui/common/alice_scroll_behavior.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

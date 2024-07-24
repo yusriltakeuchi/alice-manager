@@ -1,8 +1,8 @@
-name: alice
+name: alice_manager
 description: Alice is an HTTP Inspector tool which helps debugging http requests. It catches and stores http requests and responses, which can be viewed via simple UI.
-version: 1.0.0-dev.11
-homepage: https://github.com/jhomlala/alice
-repository: https://github.com/jhomlala/alice
+version: 1.0.0
+homepage: https://github.com/DexJoke/alice-manager
+repository: https://github.com/DexJoke/alice-manager
 topics:
   - http
   - inspector

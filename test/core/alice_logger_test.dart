@@ -1,5 +1,5 @@
-import 'package:alice/core/alice_logger.dart';
-import 'package:alice/model/alice_log.dart';
+import 'package:alice_manager/core/alice_logger.dart';
+import 'package:alice_manager/model/alice_log.dart';
 import 'package:test/expect.dart';
 import 'package:test/scaffolding.dart';
 

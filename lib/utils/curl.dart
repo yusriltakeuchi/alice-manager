@@ -1,6 +1,6 @@
 import 'dart:io' show HttpHeaders;
 
-import 'package:alice/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
 
 class Curl {
   /// Builds Curl command based on [call] instance.

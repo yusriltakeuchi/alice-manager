@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'dart:ui';
 
-import 'package:alice/model/alice_log.dart';
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/calls_list/widget/alice_empty_logs_widget.dart';
-import 'package:alice/ui/calls_list/widget/alice_error_logs_widget.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
-import 'package:alice/ui/common/alice_scroll_behavior.dart';
-import 'package:alice/ui/common/alice_theme.dart';
+import 'package:alice_manager/model/alice_log.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/calls_list/widget/alice_empty_logs_widget.dart';
+import 'package:alice_manager/ui/calls_list/widget/alice_error_logs_widget.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/ui/common/alice_scroll_behavior.dart';
+import 'package:alice_manager/ui/common/alice_theme.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

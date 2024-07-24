@@ -1,8 +1,8 @@
-import 'package:alice/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
 import 'dart:async' show FutureOr;
 
-import 'package:alice/model/alice_http_error.dart';
-import 'package:alice/model/alice_http_response.dart';
+import 'package:alice_manager/model/alice_http_error.dart';
+import 'package:alice_manager/model/alice_http_response.dart';
 
 /// Definition of call stats.
 typedef AliceStats = ({

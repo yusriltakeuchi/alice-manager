@@ -1,4 +1,4 @@
-import 'package:alice/model/alice_translation.dart';
+import 'package:alice_manager/model/alice_translation.dart';
 
 /// Class used to manage translations in Alice.
 class AliceTranslations {

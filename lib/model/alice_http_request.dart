@@ -1,7 +1,7 @@
 import 'dart:io' show Cookie;
 
-import 'package:alice/model/alice_form_data_file.dart';
-import 'package:alice/model/alice_from_data_field.dart';
+import 'package:alice_manager/model/alice_form_data_file.dart';
+import 'package:alice_manager/model/alice_from_data_field.dart';
 import 'package:equatable/equatable.dart';
 
 /// Definition of http request data holder.

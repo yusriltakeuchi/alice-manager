@@ -1,4 +1,4 @@
-import 'package:alice/core/alice_core.dart';
+import 'package:alice_manager/core/alice_core.dart';
 
 /// Adapter mixin which is used in http client adapters.
 mixin AliceAdapter {

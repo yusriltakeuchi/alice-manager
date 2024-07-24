@@ -1,6 +1,6 @@
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_http_request.dart';
-import 'package:alice/model/alice_http_response.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_http_request.dart';
+import 'package:alice_manager/model/alice_http_response.dart';
 
 class MockedData {
   static AliceHttpCall getHttpCallWithResponseStatus({

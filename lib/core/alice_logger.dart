@@ -1,7 +1,7 @@
 import 'dart:io' show Process, ProcessResult;
 
-import 'package:alice/helper/operating_system.dart';
-import 'package:alice/model/alice_log.dart';
+import 'package:alice_manager/helper/operating_system.dart';
+import 'package:alice_manager/model/alice_log.dart';
 import 'package:rxdart/rxdart.dart';
 
 /// Logger used to handle logs from application.

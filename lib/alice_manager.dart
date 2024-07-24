@@ -1,7 +1,7 @@
-import 'package:alice/alice_get_connect.dart';
-import 'package:alice/core/alice_core.dart';
-import 'package:alice/model/alice_configuration.dart';
-import 'package:alice/overlay_alice.dart';
+import 'package:alice_manager/alice_get_connect.dart';
+import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/model/alice_configuration.dart';
+import 'package:alice_manager/overlay_alice.dart';
 import 'package:flutter/material.dart';
 
 class AliceManager {

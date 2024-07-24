@@ -1,4 +1,4 @@
-import 'package:alice/helper/alice_conversion_helper.dart';
+import 'package:alice_manager/helper/alice_conversion_helper.dart';
 import 'package:test/test.dart';
 
 void main() {

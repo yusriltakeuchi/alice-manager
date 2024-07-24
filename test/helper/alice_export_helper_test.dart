@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:alice/helper/alice_export_helper.dart';
-import 'package:alice/model/alice_export_result.dart';
+import 'package:alice_manager/helper/alice_export_helper.dart';
+import 'package:alice_manager/model/alice_export_result.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

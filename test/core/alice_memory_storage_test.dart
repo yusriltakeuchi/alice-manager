@@ -1,8 +1,8 @@
-import 'package:alice/core/alice_memory_storage.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_http_error.dart';
-import 'package:alice/model/alice_http_request.dart';
-import 'package:alice/model/alice_http_response.dart';
+import 'package:alice_manager/core/alice_memory_storage.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_http_error.dart';
+import 'package:alice_manager/model/alice_http_request.dart';
+import 'package:alice_manager/model/alice_http_response.dart';
 import 'package:test/expect.dart';
 import 'package:test/scaffolding.dart';
 

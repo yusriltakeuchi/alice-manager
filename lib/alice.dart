@@ -1,15 +1,15 @@
-import 'package:alice/core/alice_adapter.dart';
-import 'package:alice/core/alice_core.dart';
-import 'package:alice/model/alice_configuration.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_log.dart';
+import 'package:alice_manager/core/alice_adapter.dart';
+import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/model/alice_configuration.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_log.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-export 'package:alice/model/alice_log.dart';
-export 'package:alice/core/alice_memory_storage.dart';
-export 'package:alice/utils/alice_parser.dart';
-export 'package:alice/alice_manager.dart';
+export 'package:alice_manager/model/alice_log.dart';
+export 'package:alice_manager/core/alice_memory_storage.dart';
+export 'package:alice_manager/utils/alice_parser.dart';
+export 'package:alice_manager/alice_manager.dart';
 export 'alice_widget_overlay.dart';
 
 class Alice {

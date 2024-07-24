@@ -1,9 +1,9 @@
-import 'package:alice/helper/alice_conversion_helper.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/call_details/widget/alice_call_list_row.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
-import 'package:alice/ui/common/alice_scroll_behavior.dart';
+import 'package:alice_manager/helper/alice_conversion_helper.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/call_details/widget/alice_call_list_row.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/ui/common/alice_scroll_behavior.dart';
 import 'package:flutter/material.dart';
 
 /// Screen which displays call overview data, for example method, server.

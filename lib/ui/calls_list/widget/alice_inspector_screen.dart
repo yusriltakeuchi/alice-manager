@@ -1,8 +1,8 @@
-import 'package:alice/core/alice_core.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/ui/calls_list/model/alice_calls_list_sort_option.dart';
-import 'package:alice/ui/calls_list/widget/alice_calls_list_screen.dart';
-import 'package:alice/ui/calls_list/widget/alice_empty_logs_widget.dart';
+import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/ui/calls_list/model/alice_calls_list_sort_option.dart';
+import 'package:alice_manager/ui/calls_list/widget/alice_calls_list_screen.dart';
+import 'package:alice_manager/ui/calls_list/widget/alice_empty_logs_widget.dart';
 import 'package:flutter/material.dart';
 
 /// Screen which is hosted in calls list page. It displays HTTP calls. It allows

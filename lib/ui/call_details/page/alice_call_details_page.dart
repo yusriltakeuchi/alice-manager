@@ -1,17 +1,17 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:alice/core/alice_core.dart';
-import 'package:alice/helper/alice_export_helper.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/call_details/model/alice_call_details_tab.dart';
-import 'package:alice/ui/call_details/widget/alice_call_error_screen.dart';
-import 'package:alice/ui/call_details/widget/alice_call_overview_screen.dart';
-import 'package:alice/ui/call_details/widget/alice_call_request_screen.dart';
-import 'package:alice/ui/call_details/widget/alice_call_response_screen.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
-import 'package:alice/ui/common/alice_page.dart';
-import 'package:alice/ui/common/alice_theme.dart';
+import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/helper/alice_export_helper.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/call_details/model/alice_call_details_tab.dart';
+import 'package:alice_manager/ui/call_details/widget/alice_call_error_screen.dart';
+import 'package:alice_manager/ui/call_details/widget/alice_call_overview_screen.dart';
+import 'package:alice_manager/ui/call_details/widget/alice_call_request_screen.dart';
+import 'package:alice_manager/ui/call_details/widget/alice_call_response_screen.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/ui/common/alice_page.dart';
+import 'package:alice_manager/ui/common/alice_theme.dart';
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:flutter/material.dart';
 

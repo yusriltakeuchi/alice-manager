@@ -1,8 +1,8 @@
-import 'package:alice/core/alice_storage.dart';
-import 'package:alice/core/alice_utils.dart';
-import 'package:alice/helper/operating_system.dart';
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/core/alice_storage.dart';
+import 'package:alice_manager/core/alice_utils.dart';
+import 'package:alice_manager/helper/operating_system.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 

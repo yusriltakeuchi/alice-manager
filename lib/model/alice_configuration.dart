@@ -1,6 +1,6 @@
-import 'package:alice/core/alice_logger.dart';
-import 'package:alice/core/alice_memory_storage.dart';
-import 'package:alice/core/alice_storage.dart';
+import 'package:alice_manager/core/alice_logger.dart';
+import 'package:alice_manager/core/alice_memory_storage.dart';
+import 'package:alice_manager/core/alice_storage.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/widgets.dart';
 

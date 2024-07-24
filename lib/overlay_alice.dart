@@ -1,4 +1,4 @@
-import 'package:alice/alice_manager.dart';
+import 'package:alice_manager/alice_manager.dart';
 import 'package:draggable_float_widget/draggable_float_widget.dart';
 import 'package:flutter/material.dart';
 

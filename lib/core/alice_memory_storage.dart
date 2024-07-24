@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:alice/core/alice_storage.dart';
-import 'package:alice/core/alice_utils.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/model/alice_http_error.dart';
-import 'package:alice/model/alice_http_response.dart';
-import 'package:alice/utils/num_comparison.dart';
+import 'package:alice_manager/core/alice_storage.dart';
+import 'package:alice_manager/core/alice_utils.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/model/alice_http_error.dart';
+import 'package:alice_manager/model/alice_http_response.dart';
+import 'package:alice_manager/utils/num_comparison.dart';
 import 'package:collection/collection.dart';
 import 'package:rxdart/subjects.dart';
 

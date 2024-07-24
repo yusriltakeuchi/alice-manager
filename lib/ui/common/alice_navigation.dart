@@ -1,8 +1,8 @@
-import 'package:alice/core/alice_core.dart';
-import 'package:alice/model/alice_http_call.dart';
-import 'package:alice/ui/call_details/page/alice_call_details_page.dart';
-import 'package:alice/ui/calls_list/page/alice_calls_list_page.dart';
-import 'package:alice/ui/stats/alice_stats_page.dart';
+import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/model/alice_http_call.dart';
+import 'package:alice_manager/ui/call_details/page/alice_call_details_page.dart';
+import 'package:alice_manager/ui/calls_list/page/alice_calls_list_page.dart';
+import 'package:alice_manager/ui/stats/alice_stats_page.dart';
 import 'package:flutter/material.dart';
 
 /// Simple navigation helper class for Alice.

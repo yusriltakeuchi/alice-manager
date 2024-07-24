@@ -1,6 +1,6 @@
-import 'package:alice/model/alice_translation.dart';
-import 'package:alice/ui/calls_list/model/alice_calls_list_sort_option.dart';
-import 'package:alice/ui/common/alice_context_ext.dart';
+import 'package:alice_manager/model/alice_translation.dart';
+import 'package:alice_manager/ui/calls_list/model/alice_calls_list_sort_option.dart';
+import 'package:alice_manager/ui/common/alice_context_ext.dart';
 import 'package:flutter/material.dart';
 
 /// Dialog which can be used to sort alice calls.
