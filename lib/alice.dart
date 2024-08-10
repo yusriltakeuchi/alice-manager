@@ -1,3 +1,5 @@
+import 'package:alice_manager/dio_interceptor.dart';
+import 'package:alice_manager/alice_get_connect.dart';
 import 'package:alice_manager/core/alice_adapter.dart';
 import 'package:alice_manager/core/alice_core.dart';
 import 'package:alice_manager/model/alice_configuration.dart';
@@ -13,14 +15,19 @@ export 'package:alice_manager/alice_manager.dart';
 export 'alice_widget_overlay.dart';
 
 class Alice {
-  /// Alice core instance
   late final AliceCore _aliceCore;
+  final DioInterceptor _dioAdapter = DioInterceptor();
+  DioInterceptor get dioAdapter => _dioAdapter;
+  final GetConnectInterceptor _getConnectInterceptor = GetConnectInterceptor();
+  GetConnectInterceptor get getConnectInterceptor => _getConnectInterceptor;
 
   /// Creates alice instance.
   Alice({AliceConfiguration? configuration}) {
     _aliceCore = AliceCore(
       configuration: configuration ?? AliceConfiguration(),
     );
+    _dioAdapter.injectCore(_aliceCore);
+    _getConnectInterceptor.injectCore(_aliceCore);
   }
 
   /// Set custom navigation key. This will help if there's route library.

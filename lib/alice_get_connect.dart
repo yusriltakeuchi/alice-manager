@@ -3,7 +3,7 @@ library alice_get_connect;
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/core/alice_adapter.dart';
 import 'package:alice_manager/model/alice_form_data_file.dart';
 import 'package:alice_manager/model/alice_from_data_field.dart';
 import 'package:alice_manager/model/alice_http_call.dart';
@@ -14,11 +14,8 @@ import 'package:collection/collection.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
 import 'package:get/get_connect/http/src/response/response.dart';
 
-class AliceGetConnect {
+class GetConnectInterceptor with AliceAdapter {
   final Duration timeout = const Duration(seconds: 30);
-  final AliceCore aliceCore;
-
-  AliceGetConnect({required this.aliceCore});
 
   FutureOr<Request> requestInterceptor(Request request) async {
     request.headers['date'] = DateTime.now().toString();

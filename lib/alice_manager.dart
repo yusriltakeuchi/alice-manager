@@ -1,33 +1,21 @@
-import 'package:alice_manager/alice_get_connect.dart';
-import 'package:alice_manager/core/alice_core.dart';
+import 'package:alice_manager/alice.dart';
 import 'package:alice_manager/model/alice_configuration.dart';
 import 'package:alice_manager/overlay_alice.dart';
 import 'package:flutter/material.dart';
 
 class AliceManager {
   static final instance = AliceManager();
-
-  late AliceCore _aliceCore;
-  AliceGetConnect? _aliceGetConnect;
-  AliceGetConnect get aliceGetConnect {
-    if (_aliceGetConnect == null) {
-      throw 'must call init';
-    }
-
-    return _aliceGetConnect!;
-  }
+  final OverlayAlice _overlayAlice = OverlayAlice();
+  OverlayAlice get overlayAlice => _overlayAlice;
+  final Alice alice =
+      Alice(configuration: AliceConfiguration(showNotification: false));
 
   void init(GlobalKey<NavigatorState> navigationKey) {
-    final config = AliceConfiguration(
-      showNotification: false,
-      navigatorKey: navigationKey,
-    );
-    _aliceCore = AliceCore(configuration: config);
-    _aliceGetConnect = AliceGetConnect(aliceCore: _aliceCore);
+    alice.setNavigatorKey(navigationKey);
   }
 
-  void showInspector() => _aliceCore.navigateToCallListScreen();
+  void showInspector() => alice.showInspector();
 
   void addEntryPoint(BuildContext context) =>
-      OverlayAlice.insertOverlay(context);
+      _overlayAlice.insertOverlay(context);
 }
