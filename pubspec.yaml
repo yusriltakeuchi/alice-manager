@@ -15,7 +15,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_local_notifications: 9.9.1
+  flutter_local_notifications: ^17.2.2
   rxdart: ^0.27.7
   path_provider: ^2.0.9
   permission_handler: ^11.3.1

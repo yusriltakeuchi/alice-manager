@@ -43,16 +43,16 @@ class AliceNotification {
         playSound: false,
         largeIcon: DrawableResourceAndroidBitmap(notificationIcon),
       ),
-      iOS: const IOSNotificationDetails(presentSound: false),
+      iOS: const DarwinNotificationDetails(presentSound: false),
     );
 
     _flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
     final AndroidInitializationSettings initializationSettingsAndroid =
         AndroidInitializationSettings(notificationIcon);
-    const IOSInitializationSettings initializationSettingsIOS =
-        IOSInitializationSettings();
-    const MacOSInitializationSettings initializationSettingsMacOS =
-        MacOSInitializationSettings();
+    const DarwinInitializationSettings initializationSettingsIOS =
+      DarwinInitializationSettings();
+    const DarwinInitializationSettings initializationSettingsMacOS =
+      DarwinInitializationSettings();
     final InitializationSettings initializationSettings =
         InitializationSettings(
       android: initializationSettingsAndroid,
@@ -61,7 +61,7 @@ class AliceNotification {
     );
     _flutterLocalNotificationsPlugin?.initialize(
       initializationSettings,
-      onSelectNotification: _onDidReceiveNotificationResponse,
+      onDidReceiveBackgroundNotificationResponse: _onDidReceiveNotificationResponse,
     );
     _requestNotificationPermissions();
   }
@@ -91,13 +91,15 @@ class AliceNotification {
               ?.resolvePlatformSpecificImplementation<
                   AndroidFlutterLocalNotificationsPlugin>();
 
-      await androidImplementation?.requestPermission();
+      await androidImplementation?.requestExactAlarmsPermission();
+      await androidImplementation?.requestNotificationsPermission();
+      await androidImplementation?.requestFullScreenIntentPermission();
     }
   }
 
   /// Called when notification has been clicked. It navigates to calls screen.
   Future<void> _onDidReceiveNotificationResponse(
-    String? response,
+    NotificationResponse? response,
   ) async {
     _openInspectorCallback();
   }
